@@ -117,7 +117,7 @@ void pop()
 
 {
 
-if(top<=1)
+if(top<=-1)
 
 {
 
@@ -147,7 +147,7 @@ if(top>0)
 
 printf("\n The elements in STACK \n");
 
-for(i=top; i>0 i--)
+for(i=top; i>0 ;i--)
 
 printf("\n%d",a[i]);
 
